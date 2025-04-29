@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        height: 300px;
+        width: 600px;
+        background-color: rgb(233, 19, 19);
+        display: flex;
+        justify-content: space-evenly;
+        /* right left start end space-between space-around space-evenly */
+        align-items: center;
+        /*right left start end center  */
+        border-top-left-radius: 20%;
+        border-top-right-radius: 20%;
+        border-bottom-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        position: relative;
+        top: 300px;
+        left: 300px;
+        border-top: 10px solid silver;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: silver;
+        border: 1px solid white;
+    }
+    .while1{
+        height: 100px;
+        width: 100px;
+        background-color:rgb(50, 12, 12);
+        border-radius: 50%;
+        position: relative;
+        left: 330px;
+        top: 280px;
+        z-index: -1;
+    }
+    .while2{
+        height: 100px;
+        width: 100px;
+        background-color:rgb(50, 12, 12);
+        border-radius: 50%;
+        position: relative;
+        left: 770px;
+        top: 180px;
+        z-index: -1;
+    }
+</style>
+<body>
+   <main class="train">
+    <section class="parent">
+        <article class="box"></article>
+        <article class="box"></article>
+        <article class="box"></article>
+        <article class="box"></article>
+    </section>
+    <article class="while1"></article>
+    <article class="while2"></article>
+   </main>
+</body>
+</html>

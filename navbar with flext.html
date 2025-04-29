@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar{
+        height: 80px;
+        width: vw;
+        background-color: rgb(44, 42, 42);
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid red;
+    }
+    .btns{
+        width: 35%;
+        
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+       
+      
+        
+    }
+    .btns :first-child
+    {
+        position: relative;
+        left: 50px;
+    }
+
+    
+    .btns1,.btns2{
+
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        
+        color: white;
+        background-color: red;
+        font-size: 17px;
+        font-weight: 600;
+        box-shadow: 0 0 3px 3px;
+
+
+    }
+    .links{
+        width: 60%;
+       
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .links a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+
+    }
+    
+</style>
+<body>
+    <nav class="navbar">
+       <article class="links">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Services</a>
+        <a href="">Contacts</a>
+       </article>
+
+       <article class="btns">
+        <button class="btns1">Login</button>
+        <button class="btns2">SingiN</button>
+       </article>
+        
+
+    </nav>
+    
+</body>
+</html>

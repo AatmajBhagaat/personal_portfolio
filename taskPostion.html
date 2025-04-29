@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .parent{
+        rotate: -45deg;
+        position: relative;
+        bottom: 400px;
+        left: 400px;
+    }
+    .parent:hover{
+        transform: scale(1.5);
+        transition: 2s;
+    }
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        position: absolute;
+        border-top: 5px  solid black;
+        border-right: 5px  solid black;
+        border-left:5px solid black;
+        border-radius: 50%;
+        z-index: -1;
+
+
+    }
+    .box1{
+        height: 200px;
+        width: 200px;
+        background-color:red;
+        position: relative;
+        top: 100px;
+        border-bottom: 5px solid black;
+        border-left: 5px solid black ;
+        
+    }
+    .box2{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        position: absolute;
+        left: 90px;
+        top: 95px;
+        border-top: 5px  solid black;
+        border-right: 5px  solid black;
+        border-left: 5px solid black;
+        border-bottom: 5px solid black;
+        border-radius: 50%;
+        z-index: -1;
+
+        
+    }
+    h1{
+        position: absolute;
+        transform: rotate(40deg);
+        top: 100px;
+        left: 60px;
+        font-size: 40px;
+        color: black;
+        z-index: 1;
+        
+    }
+</style>
+<body>
+    <section class="parent">
+        <h1>Jaanu</h1>
+        <article class="box"></article>
+        
+       
+        <article class="box1">
+        </article>
+        <article class="box2"></article>
+        
+
+    </section>
+</body>
+</html>

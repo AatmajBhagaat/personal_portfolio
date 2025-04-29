@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>  .parent{
+                   background-color: rgb(239, 251, 251);
+                   padding: 60px;
+            }
+            .parent section:hover{
+                
+                color: rgb(222, 25, 25);
+                transform: scale(1.1);
+                transition: 2s;
+                
+              
+            }
+        .parent section{
+            height: 350px;
+            width: 400px;
+            padding: 50px;
+            border: 2px solid black;
+            margin: 20px;
+            background:linear-gradient(red,salmon,yellow,Skyblue,blue);
+            border-radius: 10px;
+            
+                
+                background-repeat: no-repeat;
+                background-size: cover;
+        }
+        .parent .sec1{
+            margin-left: 50px;
+            margin-top: 90px;
+            background-image: url(https://www.bmw-m.com/content/dam/bmw/marketBMW_M/www_bmw-m_com/topics/magazine-article-pool/2024/m3-gtr-nfs-30-jahre/bmw-m3-gtr-nfs-hd-08.jpg);
+            background-size: cover;
+            
+
+        }
+        .parent .sec2 {
+            margin-left: 50px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJyFZ7xrIO4g9XhBP2OsEZQZ2lB4xrKamQQ&s);
+            background-size: cover;
+            
+            
+        }
+        .parent .sec3 {
+            margin-left: 50px;
+            background-image: url(https://backiee.com/static/wallpapers/560x315/191259.jpg);
+            background-size: cover;
+        }
+        .parent .sec4 {
+            margin-left: 800px;
+            margin-top: -1420px;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/721/460/845/vehicle-car-nissan-gtr-modified-wallpaper-preview.jpg);
+            background-size: cover;
+            
+
+        }
+        .parent .sec5 {
+            margin-left: 800px;
+            background-image: url(https://c4.wallpaperflare.com/wallpaper/499/113/152/toyota-supra-neon-lights-4k-wallpaper-thumb.jpg);
+            background-size: cover;
+        }
+        .parent .sec6 {
+            margin-left: 800px;
+            background-image: url(https://www.hdwallpapers.in/download/topcar_porsche_911_turbo_s_stinger_gtr_carbon_edition_4k_hd_cars-2560x1440.jpg);
+            background-size: cover;
+        }
+
+        .sec1 h1:hover{
+            color: rgb(145, 194, 71);
+        }
+        .sec2 h1:hover{
+            color:rgb(9, 228, 155);
+        }
+        .sec3 h1:hover{
+            color:rgb(127, 225, 255);
+        }
+        .sec4 h1:hover{
+            color:rgb(255, 127, 127);
+        }
+        .sec5 h1:hover{
+            color:rgb(255, 214, 127);
+        }
+        .sec6 h1:hover{
+            color:rgb(255, 127, 178);
+        }
+        .sec1 p::first-letter{
+            font-size: 30px;
+            color: chartreuse;
+        }
+        .sec2 p::first-letter{
+            font-size: 30px;
+            color: rgb(0, 255, 106);
+        }
+        .sec3 p::first-letter{
+            font-size: 30px;
+            color: rgb(255, 64, 0);
+        }
+        .sec4 p::first-letter{
+            font-size: 30px;
+            color: rgb(195, 0, 255);
+        }
+        .sec5 p::first-letter{
+            font-size: 30px;
+            color: rgb(0, 72, 255);
+        }
+        .sec6 p::first-letter{
+            font-size: 30px;
+            color: rgb(148, 228, 69);
+        }
+
+        
+        .sec1 p::first-line{
+            color: rgb(202, 229, 23);
+        }
+        .sec2 p::first-line{
+            color: rgb(229, 123, 23);
+        }
+        .sec3 p::first-line{
+            color: rgb(139, 10, 10);
+        }
+        .sec4 p::first-line{
+            color: rgb(169, 123, 31);
+        }
+        .sec5 p::first-line{
+            color: rgb(46, 131, 121);
+        }
+        .sec6 p::first-line{
+            color: rgb(23, 98, 229);
+        }
+        
+        .sec1 p::selection{
+            color: rgb(202, 229, 23);
+            background-color: black;
+        }
+        .sec2 p::selection{
+            color: pink;
+            background-color: black;
+        }
+        .sec3 p::selection{
+            color: rgb(139, 10, 10);
+            background-color: black;
+        }
+        .sec4 p::selection{
+            color: rgb(169, 123, 31);
+            background-color: black;
+        }
+        .sec5 p::selection{
+            color: rgb(46, 131, 121);
+            background-color: black;
+        }
+        .sec6 p::selection  {
+            color: rgb(23, 98, 229);
+            background-color: black;
+        }
+        .sec1 li::marker{
+            color: red;
+        }
+        .sec2 li::marker{
+            color: rgb(117, 176, 6);
+        }
+        .sec3 li::marker{
+            color: rgb(0, 217, 255);
+        }
+        .sec4 li::marker{
+            color: rgb(0, 98, 255);
+        }
+        .sec5 li::marker{
+            color: rgb(2, 68, 154);
+        }
+        .sec6 li::marker{
+            color: rgb(4, 0, 255);
+        }
+        .sec1 h1::after
+        {
+            content: "😍";
+        }
+        .sec2 h1::after
+        {
+            content: "🥰";
+        }
+        .sec3 h1::after
+        {
+            content: "😊";
+        }
+        .sec4 h1::after
+        {
+            content: "💕";
+        }
+        .sec5 h1::after
+        {
+            content: "❤️";
+        }
+        .sec6 h1::after
+        {
+            content: "😘";
+        }
+</style>
+<body>
+        <main class="parent" >
+                <section class="sec1">
+                        <h1>BMW M3</h1>
+                        <p>BMW M3 is an iconic sports sedan that combines luxury, performance, and precision engineering. Part of BMW's legendary M series, the M3 boasts a powerful engine, often a turbocharged inline-six, delivering exhilarating speed and exceptional handling. Its aggressive styling, with aerodynamic lines, a muscular stance, and signature kidney grille, makes it a head-turner on the road. Inside, the M3 offers a driver-focused cabin with premium materials, advanced technology, and ergonomic controls, ensuring a seamless blend of comfort and functionality. </p>
+                        <li>Special addition</li>
+                        <li>Black addition</li>
+                        <li>NFS Model</li>
+                </section>
+                <section class="sec2 ">
+                        <h1>Dodge STR </h1>
+                        <p>Dodge Challenger SRT Ghost is a powerhouse of muscle and mystique, blending iconic retro design with cutting-edge performance. This limited-edition beast stands out with its aggressive stance, bold lines, and ghostly aesthetic accents that add an air of menace. Under the hood, it roars with a supercharged HEMI V8 engine, delivering jaw-dropping horsepower and torque, making it a force to be reckoned with on the road. The interior reflects a perfect balance of comfort and aggression, featuring premium materials, advanced tech, and a driver-centric layout. </p>
+                        <li>Ghost</li>
+                        <li>GT</li>
+                        <li>Hellcat</li>
+                </section>
+                <section class="sec3">
+                        <h1>Mustang GT</h1>
+                        <p>Mustang GT Shelby, often referred to as the Shelby GT500, is a high-performance icon that represents the pinnacle of Ford's muscle car legacy. Developed in collaboration with the legendary Carroll Shelby, this beast is powered by a supercharged V8 engine, delivering heart-pounding horsepower and exhilarating acceleration. Its aggressive design features a bold front grille, aerodynamic enhancements, and iconic racing stripes that exude raw power and speed.</p>
+                        <li>Shelby GT350</li>
+                        <li>Shelby GT350R</li>
+                        <li>Shelby Cobra</li>
+                </section>
+                <section class="sec4">
+                        <h1>Nissan GTR</h1>
+                        <p>Nissan GT-R, often referred to as "Godzilla," is a high-performance sports car renowned for its exceptional engineering and thrilling performance. First introduced in 2007 as the successor to the Skyline GT-R, the GT-R boasts a twin-turbocharged 3.8-liter V6 engine, delivering astonishing power and acceleration. Its advanced all-wheel-drive system and precise handling make it a favorite among driving enthusiasts. The GT-R is also celebrated for its sleek, aerodynamic design, combining style and functionality to enhance its performance at high speeds.</p>
+                        <li>GT-R Premium</li>
+                        <li>GT-R NISMO</li>
+                        <li>GT-R Track Edition</li>
+                </section>
+                <section class="sec5">
+                        <h1>Supra MK4</h1>
+                        <p>Toyota Supra MK4, also known as the A80, is an iconic sports car that became a legend in the automotive world. Produced from 1993 to 2002, it was designed with a sleek and aerodynamic body that still looks stunning today. Powered by the legendary 3.0-liter 2JZ-GTE inline-six engine, the MK4 Supra delivered incredible performance, especially with its twin-turbocharged variant that produced up to 320 horsepower. Known for its immense tunability, the 2JZ engine has made the Supra a favorite among car enthusiasts and tuners worldwide.</p>
+                        <li>Supra Turbo</li>
+                        <li>Supra RZ</li>
+                        <li> Supra SZ</li>
+                </section>
+                <section class="sec6">
+                        <h1>Porsche 911</h1>
+                        <p>Porsche 911 is an iconic sports car that has been a symbol of performance, luxury, and timeless design since its debut in 1964. Known for its distinctive silhouette, characterized by smooth curves, round headlights, and a rear-engine layout, the 911 seamlessly blends heritage with cutting-edge innovation. Powered by a range of high-performance engines, from naturally aspirated flat-sixes to turbocharged variants, the 911 offers exhilarating driving dynamics and precision handling.</p>
+                        <li>Carrera Models</li>
+                        <li>Targa Models</li>
+                        <li>Turbo Models</li>
+                </section>
+
+        </main>
+</body>
+</html>
